@@ -4,11 +4,11 @@ import {View,Text,Button,StyleSheet} from 'react-native';
 function TimeLineScreen({navigation}) {
     return (
       <View style={styles.container}>
-        <Text>TimeLine</Text>
-        <Button 
+        <Text>タイムラインページ</Text>
+        {/* <Button 
            title = "goto details"
            onPress ={() => navigation.navigate("Details")}
-        />
+        /> */}
       </View>
     );
   };

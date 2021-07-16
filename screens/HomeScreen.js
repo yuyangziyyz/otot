@@ -2,6 +2,7 @@ import React from 'react';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import Icon from 'react-native-vector-icons/Ionicons';
 
+
 import MyHouseScreen from  '../screens/MyHouse';
 import TimeLineScreen from  '../screens/TimeLine';
 import RecordingScreen from  '../screens/Reocrding';
@@ -33,7 +34,7 @@ const HomeScreen = () => {
                   tabBarLabel: 'タイムライン',
                   tabBarColor:'#6518F4',
                   tabBarIcon: ({ color }) => (
-                    <Icon name="ios-notifications" color={color} size={26} />
+                    <Icon name="ios-timer" color={color} size={26} />
                   ),
                 }}
             />
@@ -45,7 +46,7 @@ const HomeScreen = () => {
                   tabBarLabel: '録音',
                   tabBarColor:'#1F65FF',
                   tabBarIcon: ({ color }) => (
-                    <Icon name="ios-person" color={color} size={26} />
+                    <Icon name="recording" color={color} size={26} />
                   ),
                 }}
             />
@@ -57,7 +58,7 @@ const HomeScreen = () => {
                   tabBarLabel: 'カテゴリ',
                   tabBarColor:'#D02760',
                   tabBarIcon: ({ color }) => (
-                    <Icon name="ios-aperture" color={color} size={26} />
+                    <Icon name="ios-apps-sharp" color={color} size={26} />
                   ),
                 }}
             />
@@ -67,9 +68,9 @@ const HomeScreen = () => {
                 component={RankingScreen}
                 options={{
                   tabBarLabel: 'ランキング',
-                  tabBarColor:'#D02760',
+                  tabBarColor:'#D38A1D',
                   tabBarIcon: ({ color }) => (
-                    <Icon name="ios-aperture" color={color} size={26} />
+                    <Icon name="ios-cellular" color={color} size={26} />
                   ),
                 }}
             />

@@ -4,11 +4,11 @@ import {View,Text,Button,StyleSheet} from 'react-native';
 function RankingScreen({navigation}) {
     return (
       <View style={styles.container}>
-        <Text>Ranking</Text>
-        <Button 
+        <Text>ランキングページ</Text>
+        {/* <Button 
            title = "goto details"
            onPress ={() => navigation.navigate("Details")}
-        />
+        /> */}
       </View>
     );
   };

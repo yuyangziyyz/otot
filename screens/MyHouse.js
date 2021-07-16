@@ -4,11 +4,11 @@ import {View,Text,Button,StyleSheet} from 'react-native';
 function MyHouseScreen({navigation}) {
     return (
       <View style={styles.container}>
-        <Text>MyHouse</Text>
-        <Button 
+        <Text>ホームページ</Text>
+        {/* <Button 
            title = "goto details"
            onPress ={() => navigation.navigate("Details")}
-        />
+        /> */}
       </View>
     );
   };
